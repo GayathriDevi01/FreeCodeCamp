@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/> 
+  <title>Front End Developer Intern SurveyForm</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="title">FrontEnd Developer Intern</h1>
+  <p id="description">Looking for talented developers</p>
+  <form method="post" action="" id="survey-form">
+    <div class="form">
+      <label for="name" id="name-label">Name <input id="name" type="text" class="personal" placeholder="Enter your name" required></label>
+    </div>
+    <div class="form">
+      <label for="number" id="number-label">Age <input id="number" type="number" min="18" max="70" class="personal" placeholder="Enter your age" required></label>
+    </div>
+    <div class="form">
+      <label for="email" id="email-label">Email<input id="email" type="email" class="personal" placeholder="Enter your email id" required></label>
+    </div>
+    <div class="form">
+      <label for="contact">Mobile Number <input id="contact" type="tel" class="personal" placeholder="Enter your mobile number" required></label>
+    </div>
+
+<div class="form">
+  <p>You are proficient in which of the following frameworks?</p>
+  <label for="react"><input id="react" class="framework" name="framework" value="1" type="checkbox"> React</label>
+  <label for="angular"><input id="angular" class="framework" name="framework" value="2" type="checkbox"> Angular</label>
+  <label for="vue"><input id="vue" class="framework" name="framework" value="3" type="checkbox"> Vue.js</label>
+  <label for="jquery"><input id="jquery" class="framework" name="framework" value="4" type="checkbox"> jQuery</label>
+  <label for="sui"><input id="sui" class="framework" name="framework" value="5"type="checkbox"> Semantic UI</label>
+</div>
+
+    <div class="form">
+      <p>How many years of experience do you have?</p>
+     <label for="lessthan6"><input type="radio" class="experience" name="experience" id="lessthan6" value="1" required> Less than 6 months</label>
+     <label for="6to1"><input type="radio" class="experience" id="6to1" name="experience" value="2">6 months to 1year</label>
+     <label for="1plus"><input type="radio" class="experience" id="1plus" name="experience" value="3">More than1 year</label>
+    </div>
+
+<div class="form">
+  <label for="dropdown">How many hours can you work in a day?
+  <select id="dropdown" name="hours">
+    <option value="less"> Less than 3 hours</option>
+    <option value="medium"> 3-6 hours</option>
+    <option value="more"> More than 6 hours</option>
+    <option value="flexible">Flexible</option>
+    </select>
+</div>
+<div class="form">
+  <label for="resume">Upload your resume</label>
+  <input id="resume" type="file"/>
+</div>
+<div class="form">
+  <label for="reason">Why should we hire you?
+    <textarea id="reason" placeholder="Tell us more about your skills and knowledge" rows="5" cols="60"></textarea>
+  </label>
+<div class="form">
+  <label for="credential">
+    <input id="credential" type="checkbox" value="selected"required>
+     I declare all the details provided are true
+     </label>
+</div>
+
+<div class="form">
+  <input id="submit" type="submit" value="Submit"/>
+</div>
+  </form>
