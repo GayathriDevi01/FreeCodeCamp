@@ -1,0 +1,44 @@
+#title{
+  text-transform:uppercase;
+  text-align:center;
+  font-family:anton;
+}
+div{
+  background-color:#bfbfbf;
+}
+p{
+  text-align:center;
+}
+#img-caption{
+  text-align:center;
+}
+body{
+  background-color:#dedede;
+    font-size: 1.4rem;
+  line-height: 1.5;
+  margin: 0;
+  
+}
+#img-div{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:60%;
+  padding:20px;
+  background-color:#656565;
+}
+h3{
+  text-align:center;
+}
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
