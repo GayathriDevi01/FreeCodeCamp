@@ -1,0 +1,46 @@
+@media(min-width:762px) and (max-width:1024px){
+  nav{
+  width:20%;
+  position:absolute;
+  top:0%;
+  height:100%;
+}
+nav a{
+  display:block;
+  width:110%;
+  style:none;
+  text-decoration:none;
+  color:black;
+  margin:10px;
+}
+nav a:hover{
+  background-color:#EAAA00;
+  color:#fff;
+}
+nav{
+  position:fixed;
+}
+main{
+  width:70%;
+  position:absolute;
+  left:25%
+}
+body{
+  font-size:18px;
+  font-family:Times New Roman;
+}
+p,li{
+  line-height:30px;
+}
+header{
+  font-size:24px;
+  font-weight:bold;
+}
+nav header{
+  color:#EAAA00;
+}
+.code{
+  display:block;
+  width:100%;
+  background-color:#ecf8f8;
+}}
